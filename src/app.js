@@ -11,7 +11,7 @@ window.onload = function () {
   let pronoun = ['the', 'our'];
   let adj = ['great', 'big'];
   let noun = ['jogger', 'racoon'];
-  let ext = ['.com', '.net', '.us', '.io'];
+  let extensiones = ['.com', '.net', '.us', '.io'];
 
   for (let i = 0; i < pronoun.length; i++) {
     for (let a = 0; a < adj.length; a++) {
@@ -24,8 +24,8 @@ window.onload = function () {
   pronoun.map((pronoun) => {
     adj.map((adj) => {
       noun.map((noun) => {
-        ext.map((ext) => {
-          console.log(pronoun + adj + noun + ext);
+        ext.map((extensiones) => {
+          console.log(pronoun + adj + noun + extensiones);
         }
         )
       }
